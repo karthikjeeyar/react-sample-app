@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-react-app"
+  description: "Sample test repo"
+  annotations:
+    github.com/project-slug: karthikjeeyar/react-sample-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/karthikjeeyar"
